@@ -1,9 +1,5 @@
 name: Test123
 
-on:
-  schedule:
-    - cron: '*/10 * * * *'
-
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
